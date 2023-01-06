@@ -1,5 +1,8 @@
 let date = new Date();
 let year = date.getFullYear();
-console.log(year);
 
-document.querySelector('h1').textContent = year;
+document.querySelector('h1').innerHTML = "&Copy" + year;
+
+let currentdate = document.lastModified;
+
+document.querySelector("div").textContent = `Last Updated: ${currentdate}`;

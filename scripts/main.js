@@ -5,4 +5,4 @@ document.getElementById("#year").innerHTML = year;
 
 let currentdate = document.lastModified;
 
-document.querySelector(div).textContent = `Last Updated: ${currentdate}`;
+document.querySelector("#footer stuff").textContent = `Last Updated: ${currentdate}`;

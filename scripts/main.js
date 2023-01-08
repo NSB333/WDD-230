@@ -1,10 +1,11 @@
-let date = new Date();
-let year = date.getFullYear();
 
-let copyright = `\u00a9 $(year) -Cece Pendell-`;
-document.getElementById("year").textcontent = copyright;
-alert(year);
+let copyrightYear = new Date().getFullYear();
+
+let copyright = `\u00a9 ${copyrightYear}`;
+document.getElementById("year").innerHTML = copyright;
+console.log(copyrightYear);
+
 
 let currentdate = document.lastModified;
 
-document.querySelector("footer stuff").textContent = `Last Updated: ${currentdate}`;
+document.getElementById("currentDate").innerHTML = `Last Updated: ${currentdate}`;

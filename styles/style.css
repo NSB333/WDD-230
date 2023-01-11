@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Nunito:wght@300&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kreon:wght@300&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kreon:wght@300&display=swap");
 
 /*General Stuff*/
-.small_padding {padding: 1% 2%;}
-.medium_padding {padding: 3% 6%;}
-.large_padding {padding: 6% 12%;}
-.centered_item {width:auto; text-align:center;}
+.smallPadding {padding: 1% 2%;}
+.mediumPadding {padding: 3% 6%;}
+.largePadding {padding: 6% 12%;}
+.centeredItem {width:auto; text-align:center;}
 .floatLeft{float: left;}
 .floatRight {float: right;}
 html {box-sizing: border-box;}

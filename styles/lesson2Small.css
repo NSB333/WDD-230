@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Nunito:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kreon:wght@300&display=swap");
+
+/*General Stuff*/
+.smallPadding {padding: 1% 2%;}
+.mediumPadding {padding: 3% 6%;}
+.largePadding {padding: 6% 12%;}
+.centeredItem {width:auto; text-align:center;}
+.floatLeft{float: left;}
+.floatRight {float: right;}
+html {box-sizing: border-box;}
+body {font-family: 'Lobster Two', Verdana, sans-serif; margin:0;}
+h1,h2,h3,h4 {font-family:'Lobster Two', cursive; margin:2% 0;}
+h1 {font-size: 45px;} h2 {font-size: 35px;} h3 {font-size: 25px;} h4 {font-size: 20px;}
+p {font-family: Verdana, sans-serif; font-size: 17px;}
+
+
+/*Let's Make it Pretty*/
+body {
+  background-color: #FFA69E;
+}
+.firstHeader {
+  margin-top: 50px;
+  border-top: 5px double #FAF3DD;
+  border-bottom: 5px double #FAF3DD;
+  font-family: "Lobster Two", Verdana, sans-serif;
+  color: #5E6472;
+  background-color:#AED9E0;
+  padding: 1em;
+  font-size: 2.5em;
+  line-height: 1.25em;
+}
+
+.otherHeader {
+  border-top: 5px double #FAF3DD;
+  border-bottom: 5px double #FAF3DD;
+  font-family: "Lobster Two", Verdana, sans-serif;
+  color: #B8F2E6;
+  background-color:#5E6472;
+  text-align: center;
+  padding: .5em;
+  font-size: 2.5em;
+  line-height: 1.25em;
+}
+
+.normalText {
+  border: solid 10px #FAF3DD;
+  font-family: Verdana, sans-serif;
+  color: #5E6472;
+  background-color: #AED9E0;
+}
+
+.footStyle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 500px;
+  margin-left: 500px;
+  border: solid 10px #FAF3DD;
+  font-family: Verdana, sans-serif;
+  color: #FFA69E;
+  background-color: #B8F2E6;
+}
+
+ul {
+  list-style: none;
+}
+
+.imgMarg {
+  margin-top: -25px;
+  margin-left: 400px;
+  float: left;
+  padding-right: 25px;
+}
+
+.lace {
+  background-image:
+          radial-gradient(circle at 15px 0, rgba(255,255,255,0) 14px, #FAF3DD 15px, rgba(255,255,255,0) 16px),
+          radial-gradient(circle at 15px 0, rgba(255,255,255,0) 14px, #FAF3DD 15px, rgba(255,255,255,0) 16px),
+          radial-gradient(circle at 15px 0, rgba(255,255,255,0) 4px, #FAF3DD 5px, rgba(255,255,255,0) 6px),
+          radial-gradient(circle at 5px 5px, rgba(255,255,255,0) 1px, #FAF3DD 2px, rgba(255,255,255,0) 3px);
+  background-repeat: repeat-x;
+  background-position: 0 0, 15px 6px, 0 0, 25px 9px;
+  background-size: 30px 21px, 30px 21px, 30px 21px, 30px 20px;
+}

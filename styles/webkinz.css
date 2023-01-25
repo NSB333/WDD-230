@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Indie+Flower&family=Kreon:wght@300&display=swap');
+
+.smallPadding {padding: 1% 2%;}
+.mediumPadding {padding: 3% 6%;}
+.largePadding {padding: 6% 12%;}
+.centeredItem {width:auto; text-align:center;}
+.floatLeft{float: left;}
+.floatRight {float: right;}
+html {box-sizing: border-box;}
+body {font-family: 'Heebo:wght@800', Arial, Helvetica, sans-serif; margin:0;}
+h1,h2,h3,h4 {font-family:'Heebo', 'Indie Flower', Arial, Helvetica, sans-serif; margin:2% 0;}
+h1 {font-size: 45px;} h2 {font-size: 35px;} h3 {font-size: 25px;} h4 {font-size: 20px;}
+p {font-family: Arial, Helvetica, sans-serif; font-size: 17px;}
+
+
+/*Let's Make it Pretty*/
+h1{
+    border: 20px;
+    border-radius: 25px;
+}
+
+body {
+  background-color: #74CC2F;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.style1 {
+  max-width: fit-content;
+  border: solid 10px #8E00D0;
+  border-radius: 25px;
+  color: #052E4E;
+  background-color:#F7D300;
+  padding: 1em;
+  line-height: 1.25em;
+  font-weight: bolder;
+}
+
+.style2 {
+  border-radius: 25px;
+  max-width: 60%;
+  border: solid 10px #8E00D0;
+  color: #052E4E;
+  background-color:#4EC9F2;
+  text-align: center;
+  font-weight:bolder;
+  padding: .5em;
+  line-height: 1.25em;
+}

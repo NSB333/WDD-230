@@ -25,6 +25,21 @@ body {
   margin-top: 5%;
 }
 
+.style0 {
+    max-width: fit-content;
+    border: solid 10px #55007c;
+    border-radius: 25px;
+    color: #F7D300;
+    text-shadow: -2px 2px 4px #052E4E,
+				  2px 2px 4px #052E4E,
+				  2px -2px 0 #052E4E,
+				  -2px -2px 0 #052E4E;
+    background-color:#8E00D0;
+    padding: 1em;
+    line-height: 1.25em;
+    font-weight: bolder;
+  }
+
 .style1 {
   max-width: fit-content;
   border: solid 10px #8E00D0;
